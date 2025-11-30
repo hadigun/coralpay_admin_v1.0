@@ -1,0 +1,68 @@
+import { User } from "./columns";
+
+export const users: User[] = [
+  {
+    id: "ADM-12346",
+    fullName: "Nadine Schroeder",
+    email: "Nadi@example.com",
+    role: "Admin",
+    lastActive: "01/01/2025 ",
+    status: "Pending",
+  },
+  {
+    id: "ADM-12345",
+    fullName: "Miranda Torp",
+    email: "Adrie@example.com",
+    role: "Member",
+    lastActive: "01/01/2025 ",
+    status: "Pending",
+  },
+  {
+    id: "ADM-12344",
+    fullName: "Neil Swaniawski",
+    email: "Mira@example.com",
+    role: "Assistant Admin",
+    lastActive: "01/01/2025 ",
+    status: "Active",
+  },
+  {
+    id: "ADM-12343",
+    fullName: "Chad Sauer",
+    email: "Neil.S@example.com",
+    role: "Member",
+    lastActive: "01/01/2025 ",
+    status: "Pending",
+  },
+  {
+    id: "ADM-12342",
+    fullName: "Jacob West",
+    email: "Jaco@example.com",
+    role: "Member",
+    lastActive: "01/01/2025 ",
+    status: "Inactive",
+  },
+  {
+    id: "ADM-12341",
+    fullName: "Adrienne Connelly",
+    email: "Chad_S@example.com",
+    role: "Super Admin",
+    lastActive: "01/01/2025 ",
+    status: "Active",
+  },
+  {
+    id: "ADM-12342",
+    fullName: "Jacob West",
+    email: "Jaco@example.com",
+    role: "Member",
+    lastActive: "01/01/2025 ",
+    status: "Inactive",
+  },
+  {
+    id: "ADM-12342",
+    fullName: "Jacob West",
+    email: "Jaco@example.com",
+    role: "Member",
+    lastActive: "01/01/2025 ",
+    status: "Active",
+  },
+];
